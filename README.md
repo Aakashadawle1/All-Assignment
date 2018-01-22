@@ -1,13 +1,19 @@
 # Assignment One
 # Quetion - Take a file count occuerance of each word from the file
 I am taking three days for this assginment. I am share my expereance which is giving from code.
-# Logic
+
+# Logic:
+1. Read whole file through chunk by chunk.
+2. create dictionary and insert from chunk
+3. Create the table and insert into table from dictionary
+4. Update the table through dictionary
+5. clear dictionary after update
 ```python
 import sqlite3,time
 
 start=time.time()
 
-conn = sqlite3.connect('fr.db')
+conn = sqlite3.connect('test.db')
 c = conn.cursor()
 
 def create_chunk(fread,size=45000000):
@@ -26,12 +32,12 @@ def update(info):
    list1 = []
    for k,v in dic.items():
       list1 += [(v,k)]
-      #list2 += [(k)]
    list_data = list(dic.items())
    c.executemany('update info set value = value + ? where name = ?',list1)
    if c.rowcount == 0:
       c.executemany('insert into info values(?, ?)',(list_data))
       conn.commit()
+      del list1[:]
        
 def drop_db(info):
     c.execute('drop table info')
@@ -39,7 +45,7 @@ def drop_db(info):
        
 dic = {}
 
-fread = open('fr.txt', 'r')
+fread = open('fread.txt', 'r')
 
 for i in create_chunk(fread):
    data = i.split(' ')
