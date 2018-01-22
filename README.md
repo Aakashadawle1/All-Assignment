@@ -2,7 +2,7 @@
 # Quetion - Take a file count occuerance of each word from the file
 I am taking three days for this assginment. I am share my expereance which is giving from code.
 # Logic
-
+'''
 import sqlite3,time
 
 start=time.time()
@@ -58,3 +58,4 @@ c.close()
 conn.close()
 
 print("***** Execution time : {} sec ******".format(time.time()-start))
+'''
