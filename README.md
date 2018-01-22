@@ -1,6 +1,9 @@
 # Assignment One
-# Quetion - Take a file count occuerance of each word from the file
-I am taking three days for this assginment. I am share my expereance which is giving from code.
+# Question - Take a file and count occuerance of each word from the file
+for example Input is: "India is my country" and the required Output is 'India':1,'is':1,'my':1,'country':1
+
+# Approach
+First i thought we need dictionary,file then i thought need loop and use .split() function and count the word also update into dictionary but when i update into dectionary i got some error. This error came beacuse for loop not iterate then we take list and increse the list then problem was solve then i use nornal syntax for update and insert query(c.execute()) but it too slow then take a help of our boss and use prepraed statement(c.executemany). for using preapraed statement program is too fast. 
 
 # Logic:
 1. Read whole file through chunk by chunk.
