@@ -44,7 +44,7 @@
 
 ## 4. Explan kettle options one by one
           
-[kettle](https://aakashadawle1.github.io/Kettle-Scripts/kettle) / [Aliquot](https://github.com/Aakashadawle1/Kettle-Scripts/blob/master/Aliquot.ktr)
+[kettle](https://aakashadawle1.github.io/Kettle-Scripts/kettle) / [Aliquot](https://github.com/Aakashadawle1/Kettle-Scripts/blob/master/Aliquot)
 
 
 Sequence to run the script.
