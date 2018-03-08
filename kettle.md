@@ -42,20 +42,8 @@
       
 [https://wiki.pentaho.com/](https://wiki.pentaho.com/)
 
-## 4. Explan kettle options one by one
-          
-[kettle](https://aakashadawle1.github.io/Kettle-Scripts/kettle) / [Aliquot](https://github.com/Aakashadawle1/Kettle-Scripts/blob/master/Aliquot)
 
 
-Sequence to run the script.
-#1. Participant.ktr
---> This script is used to create the Participant.
-#2. Visit.ktr
--->
-#3 Specimem.ktr
--->
-#4 Aliquot.ktr
--->
 
 
 
