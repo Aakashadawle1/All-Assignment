@@ -1,4 +1,6 @@
-[Assignment](https://aakashadawle1.github.io/aakash-hadawle) / [kettle](https://aakashadawle1.github.io/Kettle-Scripts/kettle)
+[Assignment](https://aakashadawle1.github.io/All-Assignment
+) / [kettle](https://aakashadawle1.github.io/All-Assignment
+/kettle)
 # Assignment One
 # Question - Take a file and count occurrences of each word from the file
 for example Input is: *"India is my country and I love India" and the required Output is 'India':2,'is':1,'my':1,country':1,'and':1,'I':1,'love':1,
